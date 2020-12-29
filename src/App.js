@@ -77,7 +77,7 @@ class App extends Component {
     });
 
     
-    //get this code into total.js
+    // get this code into total.js
     const total = Object.keys(this.state.selected).reduce(
       (acc, curr) => acc + this.state.selected[curr].cost,
       0

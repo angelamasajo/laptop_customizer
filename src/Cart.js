@@ -4,7 +4,6 @@ import Option from './Option'
 
 class Cart extends Component {
   
-  
   render () {
     return (
       <section className="main__summary">
