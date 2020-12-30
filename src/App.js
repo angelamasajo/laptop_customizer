@@ -92,10 +92,6 @@ class App extends Component {
         <main>
           <MainForm 
             features={features}/>
-          {/* <form className="main__form">
-            <h2>Customize your laptop</h2>
-            {features}
-          </form> */}
           <Cart 
             total={total} 
             USCurrencyFormat={USCurrencyFormat}
