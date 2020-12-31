@@ -53,7 +53,6 @@ class App extends Component {
         </header>
         <main>
           <MainForm 
-            features={this.props.features}
             selected={this.state.selected} 
             updateFeature={this.updateFeature}
             USCurrencyFormat={USCurrencyFormat}
