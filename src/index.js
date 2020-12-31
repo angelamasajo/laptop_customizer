@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+//move to MainForm.js
 const FEATURES = {
   Processor: [
     {
