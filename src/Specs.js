@@ -13,7 +13,7 @@ class Specs extends Component {
       const options = FEATURES[feature].map(item => {
         const itemHash = slugify(JSON.stringify(item));
         return (
-          <Parts 
+          <Parts
             key={item.name}
             itemHash={itemHash}
             feature={feature}

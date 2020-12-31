@@ -8,7 +8,7 @@ class Total extends Component {
       (acc, curr) => acc + this.props.total[curr].cost,
       0
     );
-    
+
     return (
       <div className="summary__total">
         <div className="summary__total__label">Total</div>

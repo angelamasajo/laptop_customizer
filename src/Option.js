@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 class Option extends Component {
 
-
   render() {
     const summary = Object.keys(this.props.selectedOption).map((feature, idx) => {
       const featureHash = feature + '-' + idx;
