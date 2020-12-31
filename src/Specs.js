@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import slugify from 'slugify';
 import Parts from './Parts';
 

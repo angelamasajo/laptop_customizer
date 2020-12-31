@@ -78,12 +78,7 @@ class App extends Component {
     });
 
     
-    // get this code into total.js
-    const total = Object.keys(this.state.selected).reduce(
-      (acc, curr) => acc + this.state.selected[curr].cost,
-      0
-    );
-
+    
     return (
       <div className="App">
         <header>
@@ -93,7 +88,6 @@ class App extends Component {
           <MainForm 
             features={features}/>
           <Cart 
-            total={total} 
             USCurrencyFormat={USCurrencyFormat}
             selectedOption={this.state.selected}
           />

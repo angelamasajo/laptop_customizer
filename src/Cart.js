@@ -13,8 +13,8 @@ class Cart extends Component {
           selectedOption={this.props.selectedOption}
         />
         <Total
-          total={this.props.total}
           USCurrencyFormat={this.props.USCurrencyFormat}
+          total={this.props.selectedOption}
         />
       </section>
     )
